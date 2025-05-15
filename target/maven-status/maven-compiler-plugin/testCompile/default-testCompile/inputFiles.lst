@@ -1,5 +1,12 @@
-C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\utils\FakerUtils.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\payloads\AuthorPayload.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\utils\BooksFakerUtils.java
 C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\tests\AuthorTests.java
-C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\endpoints\BookEndpoints.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\pojo\Book.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\tests\BaseTest.java
 C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\tests\BookTests.java
-C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\payloads\Book.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\payloads\BookPayload.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\routes\AuthorRoutes.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\pojo\Author.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\routes\BookRoutes.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\utils\AuthorConfigReader.java
+C:\Users\diyan.georgiev\Projects\diyan-api-task-allwyn-final\src\test\java\utils\BookConfigReader.java

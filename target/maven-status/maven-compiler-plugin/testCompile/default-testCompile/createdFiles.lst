@@ -1,0 +1,13 @@
+pojo\Author.class
+routes\AuthorRoutes.class
+payloads\AuthorPayload.class
+tests\BookTests.class
+tests\BaseTest.class
+utils\BooksFakerUtils.class
+payloads\BookPayload.class
+pojo\Author$AuthorBuilder.class
+utils\BookConfigReader.class
+utils\AuthorConfigReader.class
+pojo\Book.class
+routes\BookRoutes.class
+pojo\Book$BookBuilder.class

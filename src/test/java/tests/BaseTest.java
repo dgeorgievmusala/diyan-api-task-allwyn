@@ -2,22 +2,20 @@ package tests;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
-import routes.BookRoutes;
-import utils.AuthorConfigReader;
-import utils.BookConfigReader;
+import routes.Routes;
+import utils.ConfigReader;
 
 
 public class BaseTest {
-    AuthorConfigReader authorConfigReader;
-    BookConfigReader bookConfigReader;
+
+    ConfigReader configReader;
 
     @BeforeClass
     public void setup() {
 
-        RestAssured.baseURI = BookRoutes.BASE_URL;
+        RestAssured.baseURI = Routes.BASE_URL;
+        configReader = new ConfigReader();
 
-        authorConfigReader = new AuthorConfigReader();
-        bookConfigReader = new BookConfigReader();
     }
 
 }

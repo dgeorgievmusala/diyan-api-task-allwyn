@@ -4,16 +4,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class AuthorConfigReader {
-
+public class ConfigReader {
     Properties properties;
+    public static final String CONFIG_FILE_PATH = ".\\src\\test\\resources\\config.properties";
 
-
-    public static final String AUTHOR_FILE_PATH = "author.properties";
-
-    public AuthorConfigReader() {
+    public ConfigReader() {
         properties = new Properties();
-        try (FileInputStream fileInputStream = new FileInputStream(AUTHOR_FILE_PATH)) {
+        try (FileInputStream fileInputStream = new FileInputStream(CONFIG_FILE_PATH)) {
             properties.load(fileInputStream);
         } catch (IOException e) {
             e.printStackTrace();
@@ -28,4 +25,6 @@ public class AuthorConfigReader {
     public int getIntAuthorProperty(String key) {
         return Integer.parseInt(properties.getProperty(key));
     }
+
 }
+
